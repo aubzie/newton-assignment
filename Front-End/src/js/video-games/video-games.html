@@ -1,0 +1,7 @@
+﻿<h3>Video Games List</h3>
+
+<ul>
+    <li ng-repeat="videoGame in vm.videoGames">
+        <a ui-sref="video-game({ videoGameId: videoGame.id })">{{ videoGame.title }}</a>
+    </li>
+</ul>
